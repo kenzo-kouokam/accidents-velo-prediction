@@ -15,11 +15,19 @@
 
 Développer un pipeline de Machine Learning capable de **prédire la gravité d'un accident de vélo** à partir de variables contextuelles (météo, horaire, localisation, infrastructure routière).
 
-**Objectifs métier :**
-- Identifier les facteurs de risque les plus influents
-- Aider à prioriser les actions de prévention routière
-- Démontrer la capacité d'un pipeline ML à traiter des données réelles à grande échelle
+**L’objectif principal** était de développer un pipeline complet capable de :
 
+- analyser plus de **80 000 accidents de vélo** enregistrés en France ;
+- identifier les facteurs les plus liés à la gravité des accidents ;
+- prédire le risque d’accident grave à partir de variables contextuelles ;
+- comparer plusieurs modèles de Machine Learning ;
+- optimiser les performances dans un contexte de données volumineuses.
+- Démontrer la capacité d’un pipeline ML à traiter des données réelles à grande échelle.
+  
+**Objectifs métier :**
+- Mieux comprendre les contextes à risque pour les cyclistes ;
+- Identifier les variables influençant les accidents graves ;
+- Aider à prioriser les actions de prévention ;
 ---
 
 ## Dataset
@@ -28,13 +36,26 @@ Développer un pipeline de Machine Learning capable de **prédire la gravité d'
 |---|---|
 | Source | [Data.gouv.fr — Accidents corporels](https://www.data.gouv.fr/datasets/accidents-de-velo) |
 | Période | 2005 → 2023 |
-| Volume | +500 000 lignes |
+| Volume | +80 000 lignes |
 | Type | Données multi-annuelles, météo, temporelles, géographiques |
 
-**Variable cible (binaire) :**
+**Variableexploitées**
+***Variable cible (binaire) :**
 - `0` → Accident léger
 - `1` → Accident grave
-
+ 
+***Quelques variables clés utilisées dans le modèle :**  
+- luminosité (`lum`)
+- météo (`atm`)
+- état de la route (`surf`)
+- agglomération (`agg`)
+- type de collision (`col`)
+- catégorie de route (`catr`)
+- sexe (`sexe`)
+- âge (`age`)
+- heure (`hrmn`)
+- saison
+- département
 ---
 
 ## Pipeline Data Science
