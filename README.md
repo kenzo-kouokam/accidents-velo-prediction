@@ -4,6 +4,9 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
 [![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange)](https://xgboost.readthedocs.io/)
+[![Regression Logistique](https://img.shields.io/badge/Model-Logistic_Regression-blue?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+[![SVM](https://img.shields.io/badge/Model-SVM-blueviolet?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/modules/svm.html)
+[![Random Forest](https://img.shields.io/badge/Model-Random_Forest-green?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 [![Dataset](https://img.shields.io/badge/Data-data.gouv.fr-green)](https://www.data.gouv.fr/datasets/accidents-de-velo)
 
 ---
@@ -63,16 +66,16 @@ Collecte → Nettoyage → EDA → Feature Engineering → Modélisation → Év
 ## 📈 Résultats clés
 
 ### Comparaison des modèles
-![Comparaison des modèles](img/model-results.png)
+![Comparaison des modèles](img/Comparaison_des_models.png)
 
 ### Feature Importance — Random Forest
-![Feature Importance](img/feature-importance.png)
+![Feature Importance](img/Comparaison_des_modelsROC.png)
 
 ### Matrice de confusion — XGBoost
-![Matrice de confusion](img/confusion-matrix.png)
+![Matrice de confusion](img/matrices_confusion_XGB.png)
 
 ### Distribution temporelle des accidents
-![EDA temporelle](img/eda-overview.png)
+![EDA temporelle](img/evolution_annuelle.png)
 
 ---
 
