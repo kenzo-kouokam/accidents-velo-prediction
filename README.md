@@ -62,10 +62,9 @@ L’EDA a permis d’identifier plusieurs tendances importantes.
 - Certains départements présentent des volumes très élevés.
 - Les accidents graves sont minoritaires → problème de déséquilibre de classes.
 
-
-- Feature engineering (saison, heure, département)
+**3. Feature engineering (saison, heure, département)
 - Traitement du déséquilibre de classes
-- Entraînement et comparaison de 5 modèles ML
+**4. Entraînement et comparaison de 5 modèles ML
 - Optimisation mémoire et seuil de décision
 
 ---
