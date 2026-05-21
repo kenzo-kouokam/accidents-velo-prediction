@@ -38,24 +38,11 @@ Développer un pipeline de Machine Learning capable de **prédire la gravité d'
 | Période | 2005 → 2023 |
 | Volume | +80 000 lignes |
 | Type | Données multi-annuelles, météo, temporelles, géographiques |
+| Quelques variables |luminosité (`lum`), météo (`atm`), sexe (`sexe`), heure (`hrmn`) |
 
-**Variableexploitées**
-***Variable cible (binaire) :**
+**Variable cible (binaire) :**
 - `0` → Accident léger
 - `1` → Accident grave
- 
-***Quelques variables clés utilisées dans le modèle :**  
-- luminosité (`lum`)
-- météo (`atm`)
-- état de la route (`surf`)
-- agglomération (`agg`)
-- type de collision (`col`)
-- catégorie de route (`catr`)
-- sexe (`sexe`)
-- âge (`age`)
-- heure (`hrmn`)
-- saison
-- département
 ---
 
 ## Pipeline Data Science
