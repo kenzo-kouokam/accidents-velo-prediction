@@ -100,7 +100,7 @@ accidents-velo-prediction
 ├── notebook.ipynb ← Pipeline complet
 ├── README.md
 ├── data/
-│ └── README.md ← Source et description du dataset
+│ └── readme.md ← Source et description du dataset
 ├── images/
 │ └── .png ← Captures des résultats
 ```
