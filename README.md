@@ -64,7 +64,7 @@ Collecte → Nettoyage → EDA → Feature Engineering → Modélisation → Év
 ---
 ## 🎥 Présentation vidéo du projet
 
-Une présentation de 10 minutes résumant le contexte, la démarche et les principaux résultats.
+Une présentation de 06 minutes résumant le contexte, la démarche et les principaux résultats.
 
 👉 [Voir la vidéo de présentation](https://www.canva.com/design/DAHKTgqJuaQ/5HF3ZWtyt6Y1H_Lo0KveOQ/view?utm_content=DAHKTgqJuaQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd1f0429750) 👈
 ---
