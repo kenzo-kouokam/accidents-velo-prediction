@@ -96,12 +96,13 @@ Collecte → Nettoyage → EDA → Feature Engineering → Modélisation → Év
 ## 📂 Structure du repo
 
 ```bash
-**accidents-velo-prediction/**
-├── notebook.ipynb
-├── Presentation Projet_velo.pdf
-├── Projet — Prediction du risque d’accident de vélo.pdf
-├── images/
+accidents-velo-prediction
+├── notebook.ipynb ← Pipeline complet
 ├── README.md
+├── data/
+│ └── README.md ← Source et description du dataset
+├── images/
+│ └── *.png ← Captures des résultats
 ```
 
 
