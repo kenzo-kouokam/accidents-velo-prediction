@@ -89,86 +89,43 @@ Une présentation de 06 minutes résumant le contexte, la démarche et les princ
 
 ## 📈 Visuels clés du projet
 ### 1. Évolution annuelle des accidents
-➡ Montre l’analyse temporelle du phénomène.
-
-**Capture recommandée :**
+![EDA](img/01-eda-evolution_annuelle_accident.png)
 - courbe annuelle des accidents 2005–2023.
 
-
 ### 2. Volume vs taux de gravité selon l’heure
-➡ Très fort impact visuel et métier.
-
+![EDA](img/02-eda-volume_taux_de _gravité_heure.png)
 Pourquoi c’est important :
 - démontre la double lecture volume + dangerosité ;
 - montre une vraie réflexion analytique.
 
 ### 3. Analyse météo / luminosité / surface
-➡ Très bon visuel métier.
-
-À capturer :
+![EDA](img/03-eda-condition_gravite.png)
 - les graphiques comparant les conditions de circulation
 
 ### 4. Top départements accidentogènes
-➡ Excellent pour montrer l’analyse géographique.
+![EDA](img/04-eda-departements_accidentogenes.png)
 
 ### 5. Heatmap de corrélation
-➡ Indispensable pour montrer la compréhension statistique.
-
+![EDA](img/05-eda-heatmap_corrélation.png)
 C’est un visuel très attendu dans un projet Data Science professionnel.
 
-### 6. Comparaison des modèles ML
-➡ Capture essentielle.
-
-À montrer :
-- Accuracy
-- Recall
-- F1-score
-- ROC AUC
-
-Ce graphique prouve la démarche scientifique de comparaison des modèles.
+### 6. Feature Importance
+![EDA](img/06-feature_Importance.png)
+- importance des variables Random Forest & XGBoost;
+- coefficients Logistic Regression.
 
 ### 7. Courbes ROC
-➡ Très important pour un portfolio ML.
-
+![ML](img/07-ml-courbes_ROC.png)
 Pourquoi :
 - montre la maîtrise de l’évaluation probabiliste ;
 - visuel très professionnel.
 
-### 8. Matrices de confusion
-➡ Excellente preuve de compréhension métier.
-
-À privilégier :
-- matrices avec effectifs + pourcentages.
+### 8. Comparaison des modèles ML
+![ML](img/08-ml-comparaison_des_models.png)
 
 ### 9. Optimisation du seuil de décision
-➡ Très différenciant pour un recruteur.
-
-Cette partie montre que le projet ne s’arrête pas à l’entraînement du modèle.
-
-### 10. Feature Importance
-➡ Probablement l’un des meilleurs visuels du notebook.
-
-À capturer :
-- importance des variables Random Forest ;
-- coefficients Logistic Regression.
-
-Cela démontre :
-- interprétabilité ;
-- compréhension métier ;
-- capacité à expliquer un modèle.
-
-
-### Comparaison des modèles
-![Comparaison des modèles](img/Comparaison_des_models.png)
-
-### Feature Importance — Random Forest
-![Feature Importance](img/Comparaison_des_modelsROC.png)
-
-### Matrice de confusion — XGBoost
-![Matrice de confusion](img/matrices_confusion_XGB.png)
-
-### Distribution temporelle des accidents
-![EDA temporelle](img/evolution_annuelle.png)
+![ML](img/09-ml-optimisation_seuil-matrice_confusion.png)
+- matrices de confusion.
 
 ---
 
