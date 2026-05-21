@@ -38,7 +38,7 @@ Développer un pipeline de Machine Learning capable de **prédire la gravité d'
 | Période | 2005 → 2023 |
 | Volume | +80 000 lignes |
 | Type | Données multi-annuelles, météo, temporelles, géographiques |
-| Quelques variables |luminosité (`lum`), météo (`atm`), sexe (`sexe`), heure (`hrmn`) |
+| Quelques variables |luminosité (`lum`), météo (`atm`), sexe (`sexe`), heure (`hrmn`) ... |
 
 **Variable cible (binaire) :**
 - `0` → Accident léger
@@ -46,13 +46,23 @@ Développer un pipeline de Machine Learning capable de **prédire la gravité d'
 ---
 
 ## Pipeline Data Science
-Collecte → Nettoyage → EDA → Feature Engineering → Modélisation → Évaluation → Optimisation
+**Collecte → Nettoyage → EDA → Feature Engineering → Modélisation → Évaluation → Optimisation**
+
+**1. Nettoyage des données**
+- gestion des valeurs manquantes et incohérences ;
+- harmonisation des variables ;
+- transformation des types ;
+- création de la variable cible binaire.
+
+**2. Analyse Exploratoire des Données (EDA)**
+L’EDA a permis d’identifier plusieurs tendances importantes.
+- Les accidents augmentent fortement sur certaines plages horaires.
+- Les accidents graves sont plus fréquents hors agglomération.
+- Les conditions météorologiques influencent la gravité.
+- Certains départements présentent des volumes très élevés.
+- Les accidents graves sont minoritaires → problème de déséquilibre de classes.
 
 
-**Étapes réalisées :**
-- Gestion des valeurs manquantes et incohérences
-- Création de la variable cible binaire
-- Analyse exploratoire complète (EDA)
 - Feature engineering (saison, heure, département)
 - Traitement du déséquilibre de classes
 - Entraînement et comparaison de 5 modèles ML
@@ -75,9 +85,79 @@ Collecte → Nettoyage → EDA → Feature Engineering → Modélisation → Év
 Une présentation de 06 minutes résumant le contexte, la démarche et les principaux résultats.
 
 👉 [Voir la vidéo de présentation](https://www.canva.com/design/DAHKTgqJuaQ/5HF3ZWtyt6Y1H_Lo0KveOQ/view?utm_content=DAHKTgqJuaQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd1f0429750) 👈
+
 ---
 
-## 📈 Résultats clés
+## 📈 Visuels clés du projet
+### 1. Évolution annuelle des accidents
+➡ Montre l’analyse temporelle du phénomène.
+
+**Capture recommandée :**
+- courbe annuelle des accidents 2005–2023.
+
+
+### 2. Volume vs taux de gravité selon l’heure
+➡ Très fort impact visuel et métier.
+
+Pourquoi c’est important :
+- démontre la double lecture volume + dangerosité ;
+- montre une vraie réflexion analytique.
+
+### 3. Analyse météo / luminosité / surface
+➡ Très bon visuel métier.
+
+À capturer :
+- les graphiques comparant les conditions de circulation
+
+### 4. Top départements accidentogènes
+➡ Excellent pour montrer l’analyse géographique.
+
+### 5. Heatmap de corrélation
+➡ Indispensable pour montrer la compréhension statistique.
+
+C’est un visuel très attendu dans un projet Data Science professionnel.
+
+### 6. Comparaison des modèles ML
+➡ Capture essentielle.
+
+À montrer :
+- Accuracy
+- Recall
+- F1-score
+- ROC AUC
+
+Ce graphique prouve la démarche scientifique de comparaison des modèles.
+
+### 7. Courbes ROC
+➡ Très important pour un portfolio ML.
+
+Pourquoi :
+- montre la maîtrise de l’évaluation probabiliste ;
+- visuel très professionnel.
+
+### 8. Matrices de confusion
+➡ Excellente preuve de compréhension métier.
+
+À privilégier :
+- matrices avec effectifs + pourcentages.
+
+### 9. Optimisation du seuil de décision
+➡ Très différenciant pour un recruteur.
+
+Cette partie montre que le projet ne s’arrête pas à l’entraînement du modèle.
+
+### 10. Feature Importance
+➡ Probablement l’un des meilleurs visuels du notebook.
+
+À capturer :
+- importance des variables Random Forest ;
+- coefficients Logistic Regression.
+
+Cela démontre :
+- interprétabilité ;
+- compréhension métier ;
+- capacité à expliquer un modèle.
+
 
 ### Comparaison des modèles
 ![Comparaison des modèles](img/Comparaison_des_models.png)
