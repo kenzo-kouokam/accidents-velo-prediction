@@ -69,7 +69,7 @@ L’EDA a permis d’identifier plusieurs tendances importantes.
 
 ---
 
-## 🤖 Modèles comparés
+## Modèles comparés
 
 | Modèle | Notes |
 |---|---|
@@ -193,7 +193,7 @@ Au-delà du Machine Learning, ce projet démontre ma capacité à :
   
 ---
 
-## 👨‍💻 Auteur
+## Auteur
 
 **Cedric Kouokam** —  Data Analyst / Data Scientist
 
