@@ -93,7 +93,7 @@ Une présentation de 06 minutes résumant le contexte, la démarche et les princ
 - courbe annuelle des accidents 2005–2023.
 
 ### 2. Volume vs taux de gravité selon l’heure
-![EDA](img/02-eda-volume_taux_de _gravité_heure.png)
+![EDA](img/02-eda-volume_taux_de_gravité_heure.png)
 Pourquoi c’est important :
 - démontre la double lecture volume + dangerosité ;
 - montre une vraie réflexion analytique.
@@ -128,18 +128,33 @@ Pourquoi :
 - matrices de confusion.
 
 ---
-
-## ⚙️ Optimisations techniques
+## ⚙️ Optimisations techniques & Solutions mises en place
 
 - **Saturation RAM** : passage de SVM classique → LinearSVC pour réduire les coûts mémoire
-- **Traitement par batch** : optimisation des calculs sur gros volumes
-- **Ajustement du seuil de décision** : optimisation métier du Recall et F1-score
+- **Temps d’entraînement très longs** : Les modèles SVM classiques devenaient difficilement exploitables.
+- **Traitement par batch** : optimisation des calculs sur gros volumes.
+- **Ajustement du seuil de décision** : optimisation métier du Recall et F1-score.
+- **Utilisation de TF-IDF optimisé** : réduction intelligente de la dimensionnalité.
+  
+---
 
+## 📉 Résultats obtenus
+
+Le modèle final permet :
+- une détection robuste des accidents graves ;
+- une bonne généralisation ;
+- une interprétation claire des facteurs de risque.
+
+Les résultats montrent notamment :
+- l’importance des conditions de circulation ;
+- l’impact de l’environnement routier ;
+- le rôle des horaires et des zones géographiques.
+  
 ---
 
 ## 🛠️ Stack technique
 
-`Python` · `Pandas` · `NumPy` · `Scikit-learn` · `XGBoost` · `Matplotlib` · `Seaborn` · `Jupyter Notebook`
+`Python` · `Pandas` · `NumPy` · `Scikit-learn` · `XGBoost` · `Random-Forest` · `SVM` · `Logistic-regression` · `Matplotlib` · `Seaborn` · `Jupyter Notebook`
 
 ---
 
@@ -155,21 +170,33 @@ accidents-velo-prediction
 │ └── .png ← Captures des résultats
 ```
 
-
 ---
 
 ## 💡 Compétences démontrées
 
-- **Data Analysis** : EDA avancée, visualisation, analyse métier
-- **Machine Learning** : classification supervisée, tuning, optimisation de seuils
-- **Data Engineering léger** : optimisation mémoire, gestion de volumétrie
-- **Communication Data** : storytelling analytique, restitution orientée métier
+- **Data Analysis** : EDA avancée, visualisation de données, analyse métier.
+- **Machine Learning** : classification supervisée, tuning, optimisation de seuils, évaluation avancée.
+- **NLP / Feature Engineering** : TF-IDF, préparation de variables, traitement haute dimension.
+- **Data Engineering** : optimisation mémoire, gestion de volumétrie, pipeline robuste.
+- **Communication Data** : storytelling analytique, restitution orientée métier, visualisations professionnelles.
+  
+---
 
+## 🚀 Ce que ce projet démontre
+
+Au-delà du Machine Learning, ce projet démontre ma capacité à :
+- structurer un projet Data Science complet ;
+- travailler sur des données réelles volumineuses ;
+- résoudre des contraintes techniques concrètes ;
+- produire une analyse orientée décision métier ;
+- expliquer clairement des résultats complexes.
+  
 ---
 
 ## 👨‍💻 Auteur
 
-**Enzo Kouokam** — Data Analyst / Data Scientist Junior  
-[LinkedIn](https://www.linkedin.com/in/enzo-kamhoua/) · [GitHub](https://github.com/kenzo-kouokam)
+**Cedric Kouokam** —  Data Analyst / Data Scientist
+Machine Learning • NLP • Data Visualization • Business Analytics
+[LinkedIn](https://www.linkedin.com/in/enzo-kamhoua/) · [GitHub](https://github.com/kenzo-kouokam)  · [Portfolio](https://kenzo-kouokam.github.io/cedric.kouokam/)  · [CV]()
 
 
