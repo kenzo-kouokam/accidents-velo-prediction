@@ -166,7 +166,7 @@ accidents-velo-prediction
 ├── README.md
 ├── data/
 │ └── readme.md ← Source et description du dataset
-├── images/
+├── img/
 │ └── .png ← Captures des résultats
 ```
 
