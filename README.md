@@ -64,7 +64,7 @@ L’EDA a permis d’identifier plusieurs tendances importantes.
 
 **3. Feature engineering (saison, heure, département)** et - Traitement du déséquilibre de classes
   
-**4. Entraînement et comparaison de 5 modèles ML**
+**4. Entraînement et comparaison de 4 modèles ML**
 - Optimisation mémoire et seuil de décision
 
 ---
