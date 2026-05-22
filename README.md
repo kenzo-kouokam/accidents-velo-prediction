@@ -1,6 +1,6 @@
 # Prédiction du Risque d'Accident Grave de Vélo en France
 
-> Projet de Data Science appliqué à la sécurité routière — Pipeline ML complet sur +500 000 accidents réels
+> Projet de Data Science appliqué à la sécurité routière — Pipeline ML complet sur +80 000 accidents réels
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
 [![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange)](https://xgboost.readthedocs.io/)
