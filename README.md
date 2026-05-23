@@ -87,7 +87,7 @@ Une présentation de 06 minutes résumant le contexte, la démarche et les princ
 
 ---
 
-## 📈 Visuels clés du projet
+## Visuels clés du projet
 ### 1. Évolution annuelle des accidents
 ![EDA](img/01-eda-evolution_annuelle_accident.png)
 - courbe annuelle des accidents 2005–2023.
@@ -128,7 +128,7 @@ Pourquoi :
 - matrices de confusion.
 
 ---
-## ⚙️ Optimisations techniques & Solutions mises en place
+## Optimisations techniques & Solutions mises en place
 
 - **Saturation RAM** : passage de SVM classique → LinearSVC pour réduire les coûts mémoire
 - **Temps d’entraînement très longs** : Les modèles SVM classiques devenaient difficilement exploitables.
@@ -138,7 +138,7 @@ Pourquoi :
   
 ---
 
-## 📉 Résultats obtenus
+## Résultats obtenus
 
 Le modèle final permet :
 - une détection robuste des accidents graves ;
@@ -172,7 +172,7 @@ accidents-velo-prediction
 
 ---
 
-## 💡 Compétences démontrées
+## Compétences démontrées
 
 - **Data Analysis** : EDA avancée, visualisation de données, analyse métier.
 - **Machine Learning** : classification supervisée, tuning, optimisation de seuils, évaluation avancée.
@@ -182,7 +182,7 @@ accidents-velo-prediction
   
 ---
 
-## 🚀 Ce que ce projet démontre
+## Ce que ce projet démontre
 
 Au-delà du Machine Learning, ce projet démontre ma capacité à :
 - structurer un projet Data Science complet ;
